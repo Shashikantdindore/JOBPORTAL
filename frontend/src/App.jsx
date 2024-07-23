@@ -47,6 +47,8 @@ const App = () => {
         <Route path="/application/:id" element={<Application />} />
         <Route path="/applications/me" element={<MyApplication />} />
         <Route path="*" element={<NotFound />} />
+        
+        
       </Routes>
       <Footer />
       <Toaster />
